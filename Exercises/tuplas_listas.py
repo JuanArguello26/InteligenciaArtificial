@@ -92,8 +92,33 @@ while i < len(numeros):
 print("\nLista resultante sin los números pares:", numeros)
 
 
-## EJERCICIO 3
+## EJERCICIO 2
 
+# 1. Crea una lista llamada colores con los siguientes elementos: "rojo", "verde", "azul".
+colores = ["rojo", "verde", "azul"]
 
+# 2. Crea una tupla llamaa nuevos_colores con los elementos: "amarillo", "naranja".
+nuevos_colores = ("amarillo", "naranja")
 
+# 3. Usa la función extend para agregar los elementos de la tupla nuevos_colores a la lista colores.
+colores.extend(nuevos_colores)
 
+# 4. Recorre la lista colores con un bucle for e imprime cada color.
+print("\nLista de colores:")
+for color in colores:
+    print(color)
+
+## EJERCICIO 3: Insert y pop
+
+# 1. Crea una lista llamada animales con los siguientes elementos: "perro", "gato", "pajaro".
+animales = ["perro", "gato", "pajaro"]
+
+# 2. Inserta "Hamster" en la segunda posición usando la función insert.
+animales.insert(1, "Hamster")
+
+# 3. Elimina el último elemento de la lista usando la función pop e imprime cuál fue el elemento eliminado.
+elemento_eliminado = animales.pop()
+print("\nElemento eliminado:", elemento_eliminado)
+
+# 4. Finalmente, imprime la lista resultante.
+print("Lista de animales resultante:", animales)

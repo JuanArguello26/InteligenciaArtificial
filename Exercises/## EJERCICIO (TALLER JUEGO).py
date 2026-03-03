@@ -22,3 +22,32 @@ while i < len(numeros):
         i += 1
 
 print("\nLista resultante sin los números pares:", numeros)
+
+## EJERCICIO 2
+
+colores = ["rojo", "verde", "azul"]
+
+nuevos_colores = ("amarillo", "naranja")
+
+
+colores.extend(nuevos_colores)
+
+
+print("\nLista de colores:")
+for color in colores:
+    print(color)
+
+## EJERCICIO 3: Insert y pop
+
+
+animales = ["perro", "gato", "pajaro"]
+
+
+animales.insert(1, "Hamster")
+
+
+elemento_eliminado = animales.pop()
+print("\nElemento eliminado:", elemento_eliminado)
+
+
+print("Lista de animales resultante:", animales)

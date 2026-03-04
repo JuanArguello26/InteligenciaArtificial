@@ -64,3 +64,4 @@ for nombre, nota in estudiantes.items():
         reprobados += 1
 
 print(f"\nCantidad de estudiantes reprobados: {reprobados}")
+
